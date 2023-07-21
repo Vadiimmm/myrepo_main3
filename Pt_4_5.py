@@ -17,6 +17,7 @@ def find_paths(graph, start, end, path=[]):
 
     return paths
 
+
 # Исходные данные
 graph = {
     'A': ['B', 'C'],
