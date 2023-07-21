@@ -6,8 +6,8 @@ books = [
     ["A Man Called Ove", "Fredrik Backman", "2012"],
     ["Flowers for Algernon", "Daniel Keyes", "1958"],
 ]
-with open("books.csv", "w", encoding = "cp1251", newline = "") as file:
-    writer = csv.writer(file, delimiter = ";")
+with open("books.csv", "w", encoding="cp1251", newline="") as file:
+    writer = csv.writer(file, delimiter=";")
     writer.writerow(
         (
             "Книга",
