@@ -14,7 +14,7 @@ with open("books.csv", "w", encoding = "cp1251", newline = "") as file:
             "Автор",
             "Год выпуска"
         )
-)
+    )
     writer.writerows(
         books
-)
+    )
