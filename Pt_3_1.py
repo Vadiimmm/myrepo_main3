@@ -5,5 +5,5 @@ for i in range(0, m):
     k = int(input("Введите число"))
     a.append(k)
 print(a)
-srzn = reduce((lambda x, y: x + y), a)/m
+srzn = reduce((lambda x, y: x + y), a) / m--ignore=E731
 print(srzn)
