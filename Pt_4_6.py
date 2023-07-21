@@ -7,5 +7,3 @@ for i in a:
         m = 97 + (m - 123)
     b.append(chr(m))
 print("".join(b))
-
-    
