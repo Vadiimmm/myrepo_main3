@@ -12,4 +12,4 @@ for n in nums:
             r += 1
     lst = [n for n in nums if r > 2]
     r = 0
-print("конечный список: ", lst) 
+print("конечный список: ", lst)
