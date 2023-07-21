@@ -1,15 +1,15 @@
 import csv
 try:
-    n = int(input("введите количество записей: ")) 
+    n = int(input("введите количество записей: "))
     books = []
     for i in range(n):
-        row = input("Введите название, автора и год через запятую: ").split(", ")
+        row = input("Введите название, автора, год через запятую:").split(", ")
         for i in range(len(row)):
             row[i] = str(row[i])
         books.append(row)
 
-    with open("books.csv", "w", encoding = "cp1251", newline = "") as file:
-        writer = csv.writer(file, delimiter = ";")
+    with open("books.csv", "w", encoding="cp1251", newline="") as file:
+        writer = csv.writer(file, delimiter=";")
         writer.writerow(
             (
                 "Книга",
@@ -34,5 +34,3 @@ try:
         print("Нет подходящего автора")
 except ValueError:
     print("Неверное значение")
-                
-
