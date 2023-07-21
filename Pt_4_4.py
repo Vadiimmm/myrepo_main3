@@ -1,5 +1,7 @@
 import itertools
 def find_combinations(numbers, target_sum):
+
+    
     combinations = []
     for r in range(1, len(numbers) + 1):
         for combination in itertools.combinations(numbers, r):
