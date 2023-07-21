@@ -1,5 +1,5 @@
 import csv
-try:  
+try:
     a = ''
     b = []
     n = int(input("введите начальный год"))
@@ -18,7 +18,3 @@ try:
                 break
 except ValueError:
     print("Неверное значение")
-                
-            
-       
-        
