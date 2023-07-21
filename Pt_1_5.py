@@ -7,4 +7,3 @@ elif a == 1:
     print('friendship')
 else:
     print('imposible')
-	
