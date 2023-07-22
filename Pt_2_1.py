@@ -17,4 +17,3 @@ while str != ch1:
     str = input('попробуйте снова ')
 if str == ch1:
     print('отлично')
- 
