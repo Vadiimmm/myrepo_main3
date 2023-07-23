@@ -1,5 +1,5 @@
 n = int(input("введи предел"))
-fib = lambda n: fib(n - 1) + fib(n - 2) if n > 2 else 1  # noqa: E731
+fib = lambda n: fib(n - 1) + fib(n - 2) if n > 2 else 1
 a = []
 for i in range(1, n):
     if fib(i) > n:
